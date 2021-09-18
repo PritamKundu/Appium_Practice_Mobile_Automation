@@ -12,7 +12,6 @@ public class Install_Apk_Emulator {
 
 	public static void main(String[] args) throws MalformedURLException {
 		
-
 		DesiredCapabilities Dc = new DesiredCapabilities();
 		Dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
 		Dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
