@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/PRITAM/Desktop/QA Topic/Appium/Library Jar/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRITAM/Desktop/QA Topic/Appium/Library Jar/java-client-7.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRITAM/Desktop/QA Topic/Appium/Library Jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
