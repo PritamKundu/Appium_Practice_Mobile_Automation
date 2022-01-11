@@ -27,8 +27,10 @@ public class Automate_Dial_Number_Android_Mobile {
 	    URL url = new URL("http://localhost:4723/wd/hub");
 		AndroidDriver<WebElement> driver = new AndroidDriver<WebElement>(url,Dc);
 	    
-		WebElement dialer = driver.findElementById("com.android.dialer:id/fab");
-		dialer.click(); //dialer Button
+		driver.findElementById("com.android.dialer:id/fab").click();
+		//driver.findElementByXPath("//android.widget.TextView[@content-desc='Phone']").click();
+		
+		Thread.sleep(5000);
 		
 		//Dial 01743739440
 		driver.findElementById("com.android.dialer:id/zero").click(); //Zero
@@ -48,7 +50,9 @@ public class Automate_Dial_Number_Android_Mobile {
 		driver.findElementById("com.android.dialer:id/dialpad_floating_action_button").click();
 		
 		Thread.sleep(4000);
-
+		
+		driver.findElementById("com.android.dialer:id/incall_end_call").click();
+        driver.getDeviceTime("300000");
 	}
 
 }
